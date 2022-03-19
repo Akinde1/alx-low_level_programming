@@ -1,12 +1,20 @@
+#include "main.h"
+/**
+ * _isupper - evalue if letter is uppercase .
+ *@c: print int
+ * Return: Always 0.
+ */
 
-$ cat > main.h
-int _isupper(int c);
-int _isdigit(int c);
-int mul(int a, int b);
-void print_numbers(void);
-void print_most_numbers(void);
-void more_numbers(void);
-void print_line(int n);
-void print_diagonal(int n);
-void print_square(int size);
-void print_triangle(int size);
+int _isupper(int c)
+{
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
+
+}
