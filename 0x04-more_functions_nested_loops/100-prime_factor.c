@@ -2,32 +2,6 @@
 #include <math.h>
 
 /**
- * comments goes here
- */
-int main(void)
-{
-	int c;
-	long num = 612852475143;
-
-	for (c = (int) sqrt(num); c > 2; c++)
-	{
-		if (num % c == 0)
-		{
-			printf("%d\n", c);
-			break;
-		}
-	}
-
-	return (0);
-}
-
-or
-
-11 
-#include <stdio.h>
-#include <math.h>
-
-/**
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
  * Return: Always 0 (Success)
