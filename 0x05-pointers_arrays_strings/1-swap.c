@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
- * swap_int - swap the values of two integers a and b 
- *0a: A pointer to an int that will be updated
- *0b: B pointer to an int that will be updated
- * Return: void means our answer is correct
+ * swap_int - swap the value of two integers.
+ *
+ * @a: first integer.
+ * @b: second integer.
+ *
  */
 
-void swap_int(int *a, int*b)
+void swap_int(int *a, int *b)
 {
-int f;
+	int c;
 
-f = *a;
-*a = *b;
-*b = f;
+	c = 0;
+	c = *a;
+	*a = *b;
+	*b = c;
 }
+© 2022 G
